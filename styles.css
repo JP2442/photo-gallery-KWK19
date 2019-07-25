@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Dosis', sans-serif;
+background-color: seashell;
+font-size: 25px;
+padding: 5px;
+margin: 5px;
+}
+
+p{
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
+}
+
+.water{
+  display: flex;
+  justify-content: center;
+}
+
+.ocean{
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  margin: 5px;
+}
+
+.ocean2{
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  margin: 5px;
+}
+
+.ocean3{
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  margin: 5px;
+}
+
+.one{
+  display: flex;
+  justify-content: center;
+}
+
+.two{
+  display: flex;
+  justify-content: center;
+}
+
+.three{
+  display: flex;
+  justify-content: center;
+}
+
+.about{
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  body{
+    background-color: palevioletred;
+   }
+}
